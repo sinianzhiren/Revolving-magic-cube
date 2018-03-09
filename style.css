@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    margin-left: -90px;
+    -webkit-transform: perspective(300px);
+}
+
+.container {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    -webkit-transform: rotateX(55deg) rotateY(54deg);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    -webkit-perspective-origin: 150% -300px;
+    -webkit-animation-name: rotate3d;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes rotate3d {
+    0% {
+        transform: rotateY(0deg) rotateX(45deg) rotateZ(55deg)
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(45deg) rotateZ(55deg)
+    }
+}
+
+
+/*这是前面的css样式*/
+
+.front {
+    width: 180px;
+    height: 180px;
+    /*background-color: #3388ff;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -90px;
+    margin-top: -90px;
+    border: 1px solid rgba(113, 111, 17, 0.56);
+    border-radius: 10px;
+    -webkit-transform: rotateY(0deg) translateZ(90px);
+}
+
+.front1 {
+    width: 60px;
+    height: 60px;
+    background-color: #388008;
+    float: left;
+    border-radius: 15px;
+}
+
+.front2 {
+    width: 60px;
+    height: 60px;
+    background-color: #388008;
+    float: left;
+    border-radius: 15px;
+}
+
+.front3 {
+    width: 60px;
+    height: 60px;
+    background-color: #388008;
+    float: left;
+    border-radius: 15px;
+}
+
+.front4 {
+    width: 60px;
+    height: 60px;
+    background-color: #388008;
+    float: left;
+    border-radius: 15px;
+}
+
+.front5 {
+    width: 60px;
+    height: 60px;
+    background-color: #388008;
+    float: left;
+    border-radius: 15px;
+}
+
+.front6 {
+    width: 60px;
+    height: 60px;
+    background-color: #388008;
+    float: left;
+    border-radius: 15px;
+}
+
+.front7 {
+    width: 60px;
+    height: 60px;
+    background-color: #388008;
+    float: left;
+    border-radius: 15px;
+}
+
+.front8 {
+    width: 60px;
+    height: 60px;
+    background-color: #388008;
+    float: left;
+    border-radius: 15px;
+}
+
+.front9 {
+    width: 60px;
+    height: 60px;
+    background-color: #388008;
+    float: left;
+    border-radius: 15px;
+}
+
+
+/*这是后面的css样式*/
+
+.behind {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -90px;
+    margin-top: -90px;
+    border: 1px solid rgba(113, 111, 17, 0.56);
+    border-radius: 15px;
+    -webkit-transform: rotateY(180deg) translateZ(90px);
+}
+
+.behind1 {
+    width: 60px;
+    height: 60px;
+    background-color: #FFA500;
+    float: left;
+    border-radius: 15px;
+}
+
+.behind2 {
+    width: 60px;
+    height: 60px;
+    background-color: #FFA500;
+    float: left;
+    border-radius: 15px;
+}
+
+.behind3 {
+    width: 60px;
+    height: 60px;
+    background-color: #FFA500;
+    float: left;
+    border-radius: 15px;
+}
+
+.behind4 {
+    width: 60px;
+    height: 60px;
+    background-color: #FFA500;
+    float: left;
+    border-radius: 15px;
+}
+
+.behind5 {
+    width: 60px;
+    height: 60px;
+    background-color: #FFA500;
+    float: left;
+    border-radius: 15px;
+}
+
+.behind6 {
+    width: 60px;
+    height: 60px;
+    background-color: #FFA500;
+    float: left;
+    border-radius: 15px;
+}
+
+.behind7 {
+    width: 60px;
+    height: 60px;
+    background-color: #FFA500;
+    float: left;
+    border-radius: 15px;
+}
+
+.behind8 {
+    width: 60px;
+    height: 60px;
+    background-color: #FFA500;
+    float: left;
+    border-radius: 15px;
+}
+
+.behind9 {
+    width: 60px;
+    height: 60px;
+    background-color: #FFA500;
+    float: left;
+    border-radius: 15px;
+}
+
+
+/*这是左边*/
+
+.left {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -90px;
+    margin-top: -90px;
+    border: 1px solid rgba(113, 111, 17, 0.56);
+    border-radius: 15px;
+    -webkit-transform: rotateY(-90deg) translateZ(90px);
+}
+
+.left1 {
+    width: 60px;
+    height: 60px;
+    background-color: #07fffd;
+    float: left;
+    border-radius: 15px;
+}
+
+.left2 {
+    width: 60px;
+    height: 60px;
+    background-color: #07fffd;
+    float: left;
+    border-radius: 15px;
+}
+
+.left3 {
+    width: 60px;
+    height: 60px;
+    background-color: #07fffd;
+    float: left;
+    border-radius: 15px;
+}
+
+.left4 {
+    width: 60px;
+    height: 60px;
+    background-color: #07fffd;
+    float: left;
+    border-radius: 15px;
+}
+
+.left5 {
+    width: 60px;
+    height: 60px;
+    background-color: #07fffd;
+    float: left;
+    border-radius: 15px;
+}
+
+.left6 {
+    width: 60px;
+    height: 60px;
+    background-color: #07fffd;
+    float: left;
+    border-radius: 15px;
+}
+
+.left7 {
+    width: 60px;
+    height: 60px;
+    background-color: #07fffd;
+    float: left;
+    border-radius: 15px;
+}
+
+.left8 {
+    width: 60px;
+    height: 60px;
+    background-color: #07fffd;
+    float: left;
+    border-radius: 15px;
+}
+
+.left9 {
+    width: 60px;
+    height: 60px;
+    background-color: #07fffd;
+    float: left;
+    border-radius: 15px;
+}
+
+
+/*这是右边*/
+
+.right {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -90px;
+    margin-top: -90px;
+    border: 1px solid rgba(113, 111, 17, 0.56);
+    border-radius: 15px;
+    -webkit-transform: rotateY(90deg) translateZ(90px);
+}
+
+.right1 {
+    width: 60px;
+    height: 60px;
+    background-color: #0d0fff;
+    float: left;
+    border-radius: 15px;
+}
+
+.right2 {
+    width: 60px;
+    height: 60px;
+    background-color: #0d0fff;
+    float: left;
+    border-radius: 15px;
+}
+
+.right3 {
+    width: 60px;
+    height: 60px;
+    background-color: #0d0fff;
+    float: left;
+    border-radius: 15px;
+}
+
+.right4 {
+    width: 60px;
+    height: 60px;
+    background-color: #0d0fff;
+    float: left;
+    border-radius: 15px;
+}
+
+.right5 {
+    width: 60px;
+    height: 60px;
+    background-color: #0d0fff;
+    float: left;
+    border-radius: 15px;
+}
+
+.right6 {
+    width: 60px;
+    height: 60px;
+    background-color: #0d0fff;
+    float: left;
+    border-radius: 15px;
+}
+
+.right7 {
+    width: 60px;
+    height: 60px;
+    background-color: #0d0fff;
+    float: left;
+    border-radius: 15px;
+}
+
+.right8 {
+    width: 60px;
+    height: 60px;
+    background-color: #0d0fff;
+    float: left;
+    border-radius: 15px;
+}
+
+.right9 {
+    width: 60px;
+    height: 60px;
+    background-color: #0d0fff;
+    float: left;
+    border-radius: 15px;
+}
+
+
+/*这是上面*/
+
+.top {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -90px;
+    margin-top: -90px;
+    border: 1px solid rgba(113, 111, 17, 0.56);
+    border-radius: 15px;
+    -webkit-transform: rotateX(90deg) translateZ(90px);
+}
+
+.top1 {
+    width: 60px;
+    height: 60px;
+    background-color: #f801ff;
+    float: left;
+    border-radius: 15px;
+}
+
+.top2 {
+    width: 60px;
+    height: 60px;
+    background-color: #f801ff;
+    float: left;
+    border-radius: 15px;
+}
+
+.top3 {
+    width: 60px;
+    height: 60px;
+    background-color: #f801ff;
+    float: left;
+    border-radius: 15px;
+}
+
+.top4 {
+    width: 60px;
+    height: 60px;
+    background-color: #f801ff;
+    float: left;
+    border-radius: 15px;
+}
+
+.top5 {
+    width: 60px;
+    height: 60px;
+    background-color: #f801ff;
+    float: left;
+    border-radius: 15px;
+}
+
+.top6 {
+    width: 60px;
+    height: 60px;
+    background-color: #f801ff;
+    float: left;
+    border-radius: 15px;
+}
+
+.top7 {
+    width: 60px;
+    height: 60px;
+    background-color: #f801ff;
+    float: left;
+    border-radius: 15px;
+}
+
+.top8 {
+    width: 60px;
+    height: 60px;
+    background-color: #f801ff;
+    float: left;
+    border-radius: 15px;
+}
+
+.top9 {
+    width: 60px;
+    height: 60px;
+    background-color: #f801ff;
+    float: left;
+    border-radius: 15px;
+}
+
+
+/*这是底部*/
+
+.bottom {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -90px;
+    margin-top: -90px;
+    border: 1px solid rgba(113, 111, 17, 0.56);
+    border-radius: 15px;
+    -webkit-transform: rotateX(-90deg) translateZ(90px);
+}
+
+.bottom1 {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0708;
+    float: left;
+    border-radius: 15px;
+}
+
+.bottom2 {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0708;
+    float: left;
+    border-radius: 15px;
+}
+
+.bottom3 {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0708;
+    float: left;
+    border-radius: 15px;
+}
+
+.bottom4 {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0708;
+    float: left;
+    border-radius: 15px;
+}
+
+.bottom5 {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0708;
+    float: left;
+    border-radius: 15px;
+}
+
+.bottom6 {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0708;
+    float: left;
+    border-radius: 15px;
+}
+
+.bottom7 {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0708;
+    float: left;
+    border-radius: 15px;
+}
+
+.bottom8 {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0708;
+    float: left;
+    border-radius: 15px;
+}
+
+.bottom9 {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0708;
+    float: left;
+    border-radius: 15px;
+}
